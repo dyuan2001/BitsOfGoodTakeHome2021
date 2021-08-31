@@ -18,29 +18,29 @@ import TodoItem from './TodoItem.js';
  */
 // TODO: Start coding from here
 
-let testItems = [
-  {
-    title: "hi",
-    tags: ['hello'],
-    dueDate: '2021-09-14',
-    completed: false,
-    created: 1630405236673
-  },
-  {
-    title: "monkey",
-    tags: ['zoo', 'ape'],
-    dueDate: '2021-04-13',
-    completed: false,
-    created: 1630405442673
-  },
-  {
-    title: "amogus",
-    tags: ['sopace', 'manm', 'sus'],
-    dueDate: '1999-02-13',
-    completed: false,
-    created: 1630205442673
-  }
-]
+// let testItems = [
+//   {
+//     title: "hi",
+//     tags: ['hello'],
+//     dueDate: '2021-09-14',
+//     completed: false,
+//     created: 1630405236673
+//   },
+//   {
+//     title: "monkey",
+//     tags: ['zoo', 'ape'],
+//     dueDate: '2021-04-13',
+//     completed: false,
+//     created: 1630405442673
+//   },
+//   {
+//     title: "amogus",
+//     tags: ['sopace', 'manm', 'sus'],
+//     dueDate: '1999-02-13',
+//     completed: false,
+//     created: 1630205442673
+//   }
+// ]
 
 // Here's a baseline todo item type. 
 // Feel free to extend or create your own interface!
@@ -56,7 +56,7 @@ export default class TodoList extends React.Component {
     super(props);
 
     this.state = {
-      items: testItems,
+      items: [],
       sortDate: false,
       sortDateBg: 'light',
       sortCompleted: false,
